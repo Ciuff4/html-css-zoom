@@ -2,6 +2,20 @@
 
 header{
     height: 40px;
+    justify-content: flex-end;
+    padding: 0 20px;
+    background-color: black;
+}
+
+.nav-item{
+    padding: 3px 6px;
+}
+
+.nav-item i,
+.nav-item span{
+    background-color: #353435;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 /* /HEADER */
@@ -10,7 +24,35 @@ header{
 
 main{
     height:calc(100vh - 90px) ;
-    background-color: blue;
+    /* background-color: black; */
+    overflow-y: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.window{
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user{
+    position: relative;
+    width: calc(100% / 7);
+    margin: 0 2px;
+}
+
+.user img{
+    width: 100%;
+}
+
+.name{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* /MAIN */
