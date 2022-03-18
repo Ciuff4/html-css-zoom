@@ -59,7 +59,7 @@ footer{
 }
 
 ul li i{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .fa-chevron-up{
@@ -70,4 +70,17 @@ ul li i{
     flex-shrink: 0;
 }
 
+.bttn a{
+    text-decoration: none;
+    color: red;
+}
+
+.nav-btm-right{
+    background-color: #434343;
+}
+
+.fa-chevron-up,
+.bttn{
+    align-self: center;
+}
 /* /FOOTER */
