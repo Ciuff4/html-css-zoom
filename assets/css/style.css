@@ -24,15 +24,8 @@ header{
 
 main{
     height:calc(100vh - 90px) ;
-    /* background-color: black; */
+    background-color: black;
     overflow-y: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.window{
-    width: 90%;
-    margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -61,6 +54,16 @@ main{
 
 footer{
     height: 50px;
+    justify-content: space-between;
+    background-color: #212021;
+}
+
+ul li i{
+    font-size: 20px;
+}
+
+.fa-chevron-up{
+    font-size: 14px;
 }
 
 /* /FOOTER */

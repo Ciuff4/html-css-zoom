@@ -2,6 +2,11 @@
     display: flex;
 }
 
+ul li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
 
 /* DEBUG */
 
