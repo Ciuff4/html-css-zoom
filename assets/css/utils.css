@@ -8,6 +8,10 @@ ul li{
     padding: 5px 7px;
 }
 
+.active{
+    color: #3B8F09;
+}
+
 /* DEBUG */
 
 .bug{
