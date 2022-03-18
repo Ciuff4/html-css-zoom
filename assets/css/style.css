@@ -1,0 +1,24 @@
+/* HEADER */
+
+header{
+    height: 40px;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+main{
+    height:calc(100vh - 90px) ;
+    background-color: blue;
+}
+
+/* /MAIN */
+
+/* FOOTER */
+
+footer{
+    height: 50px;
+}
+
+/* /FOOTER */
